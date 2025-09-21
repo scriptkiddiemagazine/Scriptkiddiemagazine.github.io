@@ -1,7 +1,3 @@
-from pathlib import Path
-
-# HTML, CSS, and JS for the glitchy console launch page
-html_code = """
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,10 +43,7 @@ html_code = """
 
   <script>
     const lines = [
-      "> ./launch_scriptkiddie",
-      "Initializing BAMA node...",
-      "Loading modules...",
-      "Deploying to the Sprawl...",
+      
       "🟢 Script Kiddie goes live — October 2025"
     ];
     const consoleDiv = document.getElementById("console");
@@ -70,10 +63,5 @@ html_code = """
   </script>
 </body>
 </html>
-"""
 
-# Save the HTML file and instructions for the user
-file_path = "/mnt/data/index.html"
-Path(file_path).write_text(html_code)
 
-file_path
